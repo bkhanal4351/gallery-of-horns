@@ -4,20 +4,28 @@ import Hornedbeast from './Hornedbeast';
 
 class Main extends React.Component {
   render() {
+    console.log(this.props.Data);
+    let animals = [];
+    this.props.Data.forEach((beast, index) => {
+      animals.push(
+        <Hornedbeast
+          imageUrl={beast.image_url}
+          title={beast.title}
+          description={beast.description}
+          keyword={beast.keyword}
+          horns={beast.horns}
+          key={index}
+        />
+
+    )})
     return (
-        <main>
-    <h2>Images of horned beast</h2>
-    <Hornedbeast 
-    title= "First Image" 
-    imageUrl="https://h7.alamy.com/comp/3/be1c79888ad54ffa974182bbaff0a0ac/fy3d9m.jpg"
-     description="Wildebeest" />
+      <main>
+        <h2>Images of horned beast</h2>
+{animals}
 
-    <Hornedbeast 
-    title= "Second Image" 
-    imageUrl="https://h7.alamy.com/comp/3/3ae2b21e3dd244e1b4700caeac2a05ae/cwtycg.jpg" 
-    description="Argali" />
+        
 
-        </main>
+      </main>
     );
   }
 }
