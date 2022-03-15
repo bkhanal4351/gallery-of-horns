@@ -1,6 +1,12 @@
 import React from 'react';
 
 class Hornedbeast extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      votes:0
+    }
+  }
 
   render(){
     return (
