@@ -1,0 +1,24 @@
+h3{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ img{
+
+width: 100px;
+height: 100px;
+}
+
+
+article {
+border: solid 1px;
+margin: .5vw;
+padding: 1vw;
+margin-bottom: 1vw;
+
+}
+
+Card{
+  border: royalblue;
+  margin-bottom: 1vw;
+  padding: 1vw;
+  background-color: red;
+}

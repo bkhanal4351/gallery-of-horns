@@ -1,5 +1,6 @@
 import React from 'react';
 import Hornedbeast from './Hornedbeast';
+import './Main.css';
 
 
 class Main extends React.Component {
@@ -20,7 +21,7 @@ class Main extends React.Component {
     )})
     return (
       <main>
-        <h2>Images of horned beast</h2>
+        
 {animals}
 
         
