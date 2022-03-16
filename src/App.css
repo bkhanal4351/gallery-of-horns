@@ -1,15 +1,16 @@
 .App {
   text-align: center;
 }
+body {
+  background-color: beige;
+  margin-left: 20px;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
-img{
-  width: 150px;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
