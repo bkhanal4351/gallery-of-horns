@@ -17,7 +17,7 @@ class Hornedbeast extends React.Component {
       favorite: this.state.favorite + 1
     });
     this.props.stateFunction(this.props.title);
-    this.props.showModal();
+    this.props.handleModal();
   }
   onImageClicked = () =>{
     

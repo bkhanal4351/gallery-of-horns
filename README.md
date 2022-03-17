@@ -109,5 +109,7 @@ Estimate of time needed to complete: 3 hours
 
 Start time:3:05 pm
 
-Finish time: did not finish yet
-Actual time needed to complete: did not finish yet
+Finish time: took about 8 hours in total
+Actual time needed to complete: 8 hours.
+
+Worked with Roger Wells on this lab.
