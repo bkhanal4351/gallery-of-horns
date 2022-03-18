@@ -113,3 +113,16 @@ Finish time: took about 8 hours in total
 Actual time needed to complete: 8 hours.
 
 Worked with Roger Wells on this lab.
+
+## Lab4
+
+Number and name of feature: Feature 1. Filter by Numbers of Horns
+
+Estimate of time needed to complete: 3 hours
+
+Start time:3:30 pm
+
+Finish time: 6:30 pm
+Actual time needed to complete: 3 hours.
+
+Worked with Roger Wells on this lab.
