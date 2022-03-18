@@ -7,7 +7,7 @@ class Main extends React.Component {
   render() {
   
     
-    let horns= this.props.Data.map((beast, index) => {
+    let horns= this.props.hornNumber.map((beast, index) => {
         return(
         <Hornedbeast
           imageUrl={beast.image_url}
